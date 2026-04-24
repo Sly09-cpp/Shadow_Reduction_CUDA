@@ -1,7 +1,11 @@
 # Description
 ---
 
-This project was inspired by a CUDA class I took in University of Arizona. The project implements a computer vision technique where the effect of environmental shadows on greenhouses plants are significantly reduced to more accurately track the health of the plants. Due to the high computational demand of existing implementations, utilizing the parallelization nature of GPUs results in considerable performance gains over those implementations done on CPU dominant applications like MATLAB. This project builds on top of a baseline from the research paper **E. Richter, R. Raettig, J. Mack, S. Valancius, B. Unal and A. Akoglu, "Accelerated Shadow Detection and Removal Method," 2019 IEEE/ACS 16th International Conference on Computer Systems and Applications (AICCSA), Abu Dhabi, United Arab Emirates, 2019, pp. 1-8, doi: 10.1109/AICCSA47632.2019.9035242. keywords: {Convolution;Kernel;Graphics processing units;Gray-scale;Mathematical model;Computer vision;Histograms},** where I explore potential optimization opportunities and assess the performance implications on more accessible GPUs such as a 2080 Super against computational GPUs like the NVIDIA P100.  
+This project was inspired by a CUDA class I took in University of Arizona. The project implements a computer vision technique where the effect of environmental shadows on greenhouses plants are significantly reduced to more accurately track the health of the plants. Due to the high computational demand of existing implementations, utilizing the parallelization nature of GPUs results in considerable performance gains over those implementations done on CPU dominant applications like MATLAB. This project builds on top of a baseline from the research paper: 
+
+**E. Richter, R. Raettig, J. Mack, S. Valancius, B. Unal and A. Akoglu, "Accelerated Shadow Detection and Removal Method," 2019 IEEE/ACS 16th International Conference on Computer Systems and Applications (AICCSA), Abu Dhabi, United Arab Emirates, 2019, pp. 1-8, doi: 10.1109/AICCSA47632.2019.9035242. keywords: {Convolution;Kernel;Graphics processing units;Gray-scale;Mathematical model;Computer vision;Histograms},** 
+
+where I explore potential optimization opportunities and assess the performance implications on more accessible GPUs such as a 2080 Super against computational GPUs like the NVIDIA P100.  
 
 # Compile and Run
 ---
